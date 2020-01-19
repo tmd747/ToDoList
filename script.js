@@ -20,7 +20,7 @@ function inputLength() {
 
 function createDelBtnAndListElement() {
 	var btn = document.createElement("button");
-	btn.innerHTML = "x";
+	btn.innerHTML = "&times";
 	btn.className = "delete";
 
 	var li = document.createElement("li");
